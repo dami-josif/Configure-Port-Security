@@ -1,6 +1,9 @@
 # Configure-Port-Security
 Packet Tracer - Implement Port Security
 
+<img width="1366" height="768" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/7187e9b8-bfef-4b58-ac39-0d11c5b0a1da" />
+
+
 Objective
 
 Part 1: Configure Port Security

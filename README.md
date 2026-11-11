@@ -41,25 +41,40 @@ S1(config-if-range)# shutdown
 Part 2: Verify Port Security
 
 a. From PC1, ping PC2.
+
+
 b. Verify that port security is enabled and the MAC addresses of PC1 and PC2 were added to the running
 configuration.
 S1# show run | begin interface
+
+
 c. Use port-security show commands to display configuration information.
 S1# show port-security
 S1# show port-security address
+
+
 d. Attach Rogue Laptop to any unused switch port and notice that the link lights are red.
+
+
 e. Enable the port and verify that Rogue Laptop can ping PC1 and PC2. After verification, shut down the
 port connected to Rogue Laptop.
+
+
 f. Disconnect PC2 and connect Rogue Laptop to F0/2, which is the port to which PC2 was originally
 connected. Verify that Rogue Laptop is unable to ping PC1.
+
+
 g. Display the port security violations for the port to which Rogue Laptop is connected.
 S1# show port-security interface f0/2
 Close Configuration Window
+
 
 Question
 
 How many violations have occurred?
 Type your answers here.
+
+
 h. Disconnect Rouge Laptop and reconnect PC2. Verify PC2 can ping PC1.
 Question
 Why is PC2 able to ping PC1, but the Rouge Laptop is not?
